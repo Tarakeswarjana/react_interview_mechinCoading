@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.keypad{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 2px solid red;
+}
+.screen{
+    margin: 1rem;
+padding-left: 4rem;
+padding-right: 4rem;
+font-size: 1rem;
+background-color: aquamarine;
+}
+.col1{
+    display: flex;
+    gap:0.5rem;
+   
+}
+.col1 > button{
+margin: 0.5rem;
+padding: 0.5rem;
+font-size: 2rem;
+border: 1px solid yellow;
+
+background-color: rgb(185, 149, 149);
+display: box;
+
+}
+.col1 >button:hover{
+    background-color: rgb(138, 43, 226);
+   
+}
